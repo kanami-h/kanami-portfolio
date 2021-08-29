@@ -5,9 +5,8 @@ import * as styles from "../../styles/projects.module.css"
 import Img from "gatsby-image"
 
 export default function Projects({ data }) {
-  console.log(data)
   const projects = data.projects.nodes
-  const contact = data.contact.siteMetadata.contact
+
   return (
     <Layout>
       <div className={styles.portfolio}>
@@ -16,7 +15,7 @@ export default function Projects({ data }) {
         <div className={styles.projects}>
           {projects.map(project => (
             <Link to={"/projects/" + project.frontmatter.slug} key={project.id}>
-              <div>
+              <div className={styles.card}>
                 <Img
                   fluid={project.frontmatter.thumb.childImageSharp.fluid}
                   className={styles.projectImg}
@@ -27,7 +26,6 @@ export default function Projects({ data }) {
             </Link>
           ))}
         </div>
-        <p>Like what you see? Email me at {contact} for a chat!</p>
       </div>
     </Layout>
   )
@@ -54,11 +52,6 @@ export const query = graphql`
           }
         }
         id
-      }
-    }
-    contact: site {
-      siteMetadata {
-        contact
       }
     }
   }

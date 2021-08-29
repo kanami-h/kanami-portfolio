@@ -1,0 +1,69 @@
+footer {
+  margin-top: 100px;
+  background-color: #ffcb77;
+  min-height: 30vh;
+  padding: 50px;
+}
+
+footer .contact {
+  display: flex;
+}
+
+.cta {
+  margin: 5%;
+  text-align: center;
+}
+
+.cta h3 {
+  padding: 20px 0;
+  font-size: 3em;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  padding: 25px;
+  border: 1px solid var(--blue);
+  margin-left: 20px;
+}
+
+.email {
+  padding: 25px;
+  border: 1px solid var(--blue);
+  border-left: none;
+}
+
+.btn {
+  height: 76px;
+  display: inline-block;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  background: var(--blue);
+  color: #fff;
+  border: 1px solid var(--blue);
+  border-bottom: solid 4px #3d475e;
+  margin-right: 10px;
+}
+.btn:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  border-bottom: none;
+}
+
+.socialIcon {
+  text-align: center;
+}
+
+.socialIcon svg {
+  padding: 10px;
+}
+
+.copyRight {
+  text-align: center;
+  color: #8ab7d0;
+  margin: 40px auto 0;
+}

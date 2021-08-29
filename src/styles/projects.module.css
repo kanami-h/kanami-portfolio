@@ -3,8 +3,11 @@
 }
 
 .portfolio > h2 {
-  font-size: 2em;
+  font-size: 5em;
   margin-top: 80px;
+  -webkit-text-stroke: 2px var(--primary-text-color);
+  -webkit-text-fill-color: white;
+  color: var(--primary-text-color);
 }
 
 .portfolio > h3 {
@@ -26,11 +29,18 @@
 }
 
 .projects p {
-  color: #ccc;
+  color: #9ea9b0;
   margin-top: 4px;
 }
 
 .projectImg {
   width: 300px;
   height: 200px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }

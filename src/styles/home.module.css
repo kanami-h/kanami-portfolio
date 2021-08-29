@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
   align-items: center;
+  min-height: 70vh;
 }
 
 .header h2 {
@@ -15,11 +16,24 @@
   margin-bottom: 20px;
 }
 
-.btn {
-  display: inline-block;
-  background: #7700a1;
-  padding: 10px 16px;
-  border-radius: 10px;
-  margin-top: 20px;
-  font-weight: 500;
+.header span {
+  border-bottom: var(--light-coral) 4px solid;
+  width: 60px;
+  display: block;
+}
+
+.works {
+  min-height: 100vh;
+}
+
+.title {
+  -webkit-text-stroke: 2px var(--primary-text-color);
+  -webkit-text-fill-color: white;
+  color: var(--primary-text-color);
+  font-size: 7em;
+  text-align: right;
+}
+
+.about {
+  min-height: 50vh;
 }
