@@ -33,9 +33,6 @@ p {
 }
 
 /* Layout & Nav */
-.layout {
-}
-
 section {
   padding: 5%;
 }
@@ -44,6 +41,10 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 25px 40px;
+}
+
+nav > a > h1 {
+  color: var(--light-coral);
 }
 
 nav .links {

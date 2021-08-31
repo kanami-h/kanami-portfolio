@@ -25,6 +25,20 @@ export default function Home({ data }) {
         <div>
           <h2 className={styles.title}>About</h2>
         </div>
+        <div className={styles.aboutWrapper}>
+          <img src="" alt="kanami hidaka" />
+          <div className={styles.description}>
+            <h3 className="name">Kanami Hidaka</h3>
+            <p>
+              <span className={styles.bold}>2019</span> Self-taught HTML/CSS,
+              WordPress
+            </p>
+            <p>
+              <span className={styles.bold}>2020 - 2021 </span>
+              Learned Interactive Media Design at Seneca College
+            </p>
+          </div>
+        </div>
       </section>
     </Layout>
   )
