@@ -3,9 +3,9 @@ import React from "react"
 import * as styles from "../styles/works.module.css"
 import ecycle from "../images/thumbs/ecycle.jpg"
 import azumi from "../images/thumbs/azumi.png"
-import toribo from "../images/thumbs/japanese-restaurant.jpg"
+import toribo from "../images/home/toribo.gif"
 
-export default function Woks({}) {
+export default function Woks() {
   return (
     <div>
       <div className={styles.works}>
