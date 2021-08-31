@@ -57,7 +57,7 @@ export default function Woks() {
           </Link>
         </div>
       </div>
-      <div className={styles.btn}>
+      <div className={styles.worksBtn}>
         <Link to="/projects/">
           <button>MORE</button>
         </Link>

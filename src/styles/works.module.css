@@ -30,11 +30,11 @@
   font-size: 3.5em;
 }
 
-.btn {
+.worksBtn {
   text-align: center;
 }
 
-button {
+.worksBtn > button {
   position: relative;
   display: inline-block;
   font-weight: bold;
@@ -47,7 +47,7 @@ button {
   border-radius: 30px;
 }
 
-button:hover {
+.worksBtn > button:hover {
   background: var(--light-coral);
   color: white;
 }
