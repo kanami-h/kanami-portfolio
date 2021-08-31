@@ -25,10 +25,22 @@ module.exports = {
         path: `${__dirname}/src/images/`,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Kanami Hidaka Portfolio`,
+        short_name: `Portfolio`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#fff`,
+        display: `standalone`,
+        icon: `src/images/gatsby-icon.png`,
+      },
+    },
   ],
   siteMetadata: {
     title: "Kanami Hidaka",
-    description: "web dev portfolio",
+    description: "web dev  portfolio",
     copyright: "This website is copyright 2021 Kanami Hidaka",
     contact: "mail@kanami.tech",
   },
