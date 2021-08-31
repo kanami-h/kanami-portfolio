@@ -1,4 +1,4 @@
-import { graphql, Link } from "gatsby"
+import { Link } from "gatsby"
 import React from "react"
 import * as styles from "../styles/works.module.css"
 import ecycle from "../images/thumbs/ecycle.jpg"
@@ -13,7 +13,7 @@ export default function Woks({}) {
           <h2>Web Design</h2>
           <Link to="/projects/japanese-restautant-toribo">
             <div className={styles.card}>
-              <img src={toribo} />
+              <img src={toribo} alt="mobile, tablet, laptop screen" />
               <h3 className={styles.title}>Japanese Restaurant Toribo</h3>
               <p className={styles.year}>2019</p>
             </div>
@@ -23,7 +23,7 @@ export default function Woks({}) {
           <h2>UX Design</h2>
           <Link to="/projects/ecycle-case-study">
             <div className={styles.card}>
-              <img src={ecycle} />
+              <img src={ecycle} alt="ecycle mobile screens" />
               <h3 className={styles.title}>eCycle | Case Study</h3>
               <p className={styles.year}>2021</p>
             </div>
@@ -33,7 +33,7 @@ export default function Woks({}) {
           <h2>Graphic Design</h2>
           <Link to="/projects/azumi-brand-book">
             <div className={styles.card}>
-              <img src={azumi} />
+              <img src={azumi} alt="azumi brand book" />
               <h3 className={styles.title}>AZUMI</h3>
               <p className={styles.year}>2020</p>
             </div>
