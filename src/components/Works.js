@@ -1,33 +1,43 @@
 import { graphql, Link } from "gatsby"
 import React from "react"
-import * as styles from "../styles/projects.module.css"
+import * as styles from "../styles/works.module.css"
 import ecycle from "../images/thumbs/ecycle.jpg"
+import azumi from "../images/thumbs/azumi.png"
+import toribo from "../images/thumbs/japanese-restaurant.jpg"
 
 export default function Woks({}) {
   return (
     <div>
-      <div className="webDesign">
-        <h2>Web Design</h2>
-        <div className="card">
-          <img src={ecycle} />
-          <h3 className="title">Toribo</h3>
-          <p className="year">2019</p>
+      <div className={styles.works}>
+        <div className={styles.webDesign}>
+          <h2>Web Design</h2>
+          <Link to="/projects/japanese-restautant-toribo">
+            <div className={styles.card}>
+              <img src={toribo} />
+              <h3 className={styles.title}>Japanese Restaurant Toribo</h3>
+              <p className={styles.year}>2019</p>
+            </div>
+          </Link>
         </div>
-      </div>
-      <div className="uxDesign">
-        <h2>UX Design</h2>
-        <div className="card">
-          <img src={ecycle} />
-          <h3 className="title">eCycle | Case Study</h3>
-          <p className="year">2021</p>
+        <div className={styles.uxDesign}>
+          <h2>UX Design</h2>
+          <Link to="/projects/ecycle-case-study">
+            <div className={styles.card}>
+              <img src={ecycle} />
+              <h3 className={styles.title}>eCycle | Case Study</h3>
+              <p className={styles.year}>2021</p>
+            </div>
+          </Link>
         </div>
-      </div>
-      <div className="graphicDesign">
-        <h2>Graphic Design</h2>
-        <div className="card">
-          <img src={ecycle} />
-          <h3 className="title">AZUMI</h3>
-          <p className="year">2020</p>
+        <div className={styles.graphicDesign}>
+          <h2>Graphic Design</h2>
+          <Link to="/projects/azumi-brand-book">
+            <div className={styles.card}>
+              <img src={azumi} />
+              <h3 className={styles.title}>AZUMI</h3>
+              <p className={styles.year}>2020</p>
+            </div>
+          </Link>
         </div>
       </div>
       <div className="btn">
