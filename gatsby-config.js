@@ -9,6 +9,7 @@ module.exports = {
   plugins: [
     "gatsby-plugin-fontawesome-css",
     "gatsby-transformer-remark",
+    "gatsby-plugin-image",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     {
