@@ -30,11 +30,12 @@
   font-size: 3.5em;
 }
 
-.worksBtn {
+.moreBtnWrapper {
   text-align: center;
+  margin: 5%;
 }
 
-.worksBtn > button {
+.moreBtn {
   position: relative;
   display: inline-block;
   font-weight: bold;
@@ -47,7 +48,7 @@
   border-radius: 30px;
 }
 
-.worksBtn > button:hover {
+.moreBtn:hover {
   background: var(--light-coral);
   color: white;
 }

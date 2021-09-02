@@ -1,0 +1,22 @@
+.bold {
+  font-weight: bold;
+}
+
+.aboutWrapper a {
+  color: var(--light-coral);
+}
+
+.introduction h2 {
+  font-size: 3em;
+}
+
+.aboutWrapper {
+  display: grid;
+  grid-template-columns: 40% auto;
+  grid-gap: 10%;
+}
+
+.aboutImg {
+  width: 50%;
+  justify-self: center;
+}
