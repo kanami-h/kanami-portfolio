@@ -6,7 +6,8 @@ import * as styles from "../styles/project-details.module.css"
 
 export default function projectDetails({ data }) {
   const { html } = data.markdownRemark
-  const { title, stack, featuredImg } = data.markdownRemark.frontmatter
+  const { title, stack, detailedImg } = data.markdownRemark.frontmatter
+  console.log(data.markdownRemark.frontmatter)
 
   return (
     <Layout>
@@ -14,7 +15,7 @@ export default function projectDetails({ data }) {
         <h2>{title}</h2>
         <h3>{stack}</h3>
         <div className={styles.featured}>
-          <Img fluid={featuredImg} />
+          <Img fluid={detailedImg.childImageSharp.fluid} />
         </div>
         {
           <div
@@ -34,7 +35,13 @@ export const query = graphql`
       frontmatter {
         stack
         title
-        featuredImg
+        detailedImg {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

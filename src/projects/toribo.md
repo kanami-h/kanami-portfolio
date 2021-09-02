@@ -4,7 +4,7 @@ stack: HTML, CSS, Gatsby, GraphQL, Strapi
 slug: japanese-restautant-toribo
 date: 2018-01-01 00:00:00 +0000
 thumb: ../images/thumbs/japanese-restaurant.jpg
-featuredImg: ../images/featured/azumi_featured.png
+detailedImg: ../images/project-details/toribo.png
 ---
 
 ## Summary
@@ -13,10 +13,13 @@ featuredImg: ../images/featured/azumi_featured.png
 
 ## Stack
 
-HTML, CSS, Gatsby, GraphQL, Strapi
+HTML, CSS
+d
 
 ## Challanges
 
-During pandemic, they cannot open the restaurant and started selling homekit that customers to enjoy Toribo's chikines at their home. So they needed an e-commerse feature that customers able to checkout.
+During pandemic, they cannot open the restaurant and started selling homekit that customers to enjoy Toribo's menu at their home. So they needed an e-commerse feature that customers able to checkout.
 
 ## Photos
+
+![Image of screen](/images/project-details/toribo.png)
