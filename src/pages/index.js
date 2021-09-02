@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../styles/home.module.css"
 import Img from "gatsby-image"
+import { StaticImage } from "gatsby-plugin-image"
 import Works from "../components/Works"
 
 export default function Home({ data }) {
@@ -14,6 +15,7 @@ export default function Home({ data }) {
           <p>Web Developer & UX Designer based in Toronto.</p>
           <span></span>
         </div>
+        <Img fluid={data.file.childImageSharp.fluid} />
       </section>
       <section className={styles.works}>
         <div>
@@ -26,17 +28,21 @@ export default function Home({ data }) {
           <h2 className={styles.title}>About</h2>
         </div>
         <div className={styles.aboutWrapper}>
-          <img src="" alt="kanami hidaka" />
+          <StaticImage src="../images/kanami.jpg" alt="kanami hidaka" />
           <div className={styles.description}>
-            <h3 className="name">Kanami Hidaka</h3>
+            <h3>Kanami Hidaka</h3>
             <p>
-              <span className={styles.bold}>2019</span> Self-taught HTML/CSS,
-              WordPress
+              <span className={styles.bold}>Hello!</span> I am a front-end
+              developer and designer who have a passion to find better
+              solutions, developing and simplifying procedues, and having a
+              strong curiosity to learn new technologies. Skilled communicator
+              with a sales background.
             </p>
-            <p>
-              <span className={styles.bold}>2020 - 2021 </span>
-              Learned Interactive Media Design at Seneca College
-            </p>
+          </div>
+          <div className={styles.moreBtnWrapper}>
+            <Link to="/about/">
+              <button className={styles.moreBtn}>MORE</button>
+            </Link>
           </div>
         </div>
       </section>
@@ -46,9 +52,9 @@ export default function Home({ data }) {
 
 export const query = graphql`
   query Banner {
-    file(relativePath: { eq: "banner.png" }) {
-      id
+    file(relativePath: { eq: "flamingo.png" }) {
       childImageSharp {
+        id
         fluid {
           ...GatsbyImageSharpFluid
         }
