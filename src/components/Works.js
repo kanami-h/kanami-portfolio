@@ -10,17 +10,15 @@ export default function Woks() {
         <div className={styles.webDesign}>
           <h2>Web Design</h2>
           <Link to="/projects/japanese-restautant-toribo">
-            <div className={styles.cardDesc}>
-              <div className={styles.card}>
-                <StaticImage
-                  src="../images/home/toribo.gif"
-                  alt="mobile, tablet, laptop screen"
-                />
-                <div className={styles.cardDesc}>
-                  <h3 className={styles.title}>Japanese Restaurant Toribo</h3>
-                  <p className={styles.year}>2019</p>
-                  <p className={styles.desc}>The website created by Gatsby</p>
-                </div>
+            <div className={styles.card}>
+              <StaticImage
+                src="../images/thumbs/japanese-restaurant.jpg"
+                alt="mobile, tablet, laptop screen"
+              />
+              <div className={styles.cardDesc}>
+                <h3 className={styles.title}>Japanese Restaurant Toribo</h3>
+                <p className={styles.year}>2019</p>
+                <p className={styles.desc}>The website created by Gatsby</p>
               </div>
             </div>
           </Link>
