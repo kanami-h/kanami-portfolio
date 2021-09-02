@@ -28,7 +28,9 @@ export default function Home({ data }) {
           <h2 className={styles.title}>About</h2>
         </div>
         <div className={styles.aboutWrapper}>
-          <StaticImage src="../images/kanami.jpg" alt="kanami hidaka" />
+          <div className={styles.aboutImg}>
+            <StaticImage src="../images/kanami.jpg" alt="kanami hidaka" />
+          </div>
           <div className={styles.description}>
             <h3>Kanami Hidaka</h3>
             <p>
