@@ -96,7 +96,7 @@ About
 
 /* Mobile */
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 600px) {
   .header {
     grid-template-columns: 1fr;
   }
@@ -107,5 +107,17 @@ About
 
   .header img {
     max-width: 100%;
+  }
+
+  .title {
+    -webkit-text-stroke: 1px var(--light-coral);
+    font-size: 4em;
+    text-align: center;
+  }
+
+  /* About */
+  .description {
+    padding: 30px 20px;
+    width: 85%;
   }
 }
