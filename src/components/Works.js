@@ -28,7 +28,7 @@ export default function Woks() {
           <Link to="/projects/ecycle-case-study">
             <div className={styles.card}>
               <StaticImage
-                src="../images/thumbs/ecycle.jpg"
+                src="../images/home/ecycle.png"
                 alt="ecycle mobile screens"
               />
               <div className={styles.cardDesc}>
