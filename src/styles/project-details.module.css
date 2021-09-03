@@ -4,20 +4,61 @@
 }
 
 .details h2 {
-  font-size: 3em;
+  font-size: 5em;
   margin-top: 80px;
 }
 
 .details h3 {
-  font-size: 1.5em;
-  font-weight: 400;
-  margin-bottom: 40px;
+  width: 50%;
+  margin-top: 3.5rem;
+  font-size: 2.5rem;
 }
 
 .html {
   margin-top: 40px;
 }
 
+.html table {
+  margin-top: 5rem;
+}
+
+.html td {
+  padding: 5px 10px;
+}
+
+td > a {
+  text-decoration: underline;
+}
+
+.html p:nth-child(3) {
+  width: 50%;
+}
+
+.html img {
+  border-radius: 10px;
+}
+
+.html p {
+  margin-bottom: 3rem;
+}
+
 .featured {
   margin-bottom: 40px;
+}
+
+.html > p > a {
+  display: block;
+  margin-top: 5rem;
+}
+
+.backButton {
+  font-size: 1.5rem;
+}
+
+.backButton a {
+  transition: all 0.5s;
+}
+
+.backButton a:hover {
+  letter-spacing: 3px;
 }
