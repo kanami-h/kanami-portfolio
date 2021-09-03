@@ -7,14 +7,32 @@ thumb: ../images/thumbs/excel.jpg
 featured: ../images/featured/azumi_featured.png
 ---
 
-## Summary
+![Image of mobile phone](../images/featured/excel.png)
 
-**Excel Fitness Centre** is a Japanese cat cafe which foster abundond cats, customers can spend time with those cats and they find parmanent homes for more than 300 cats. They had a website but it was already outdated, didn't have pages for mobile devices, so the owner wated to revamp it.
+|          |                                                |
+| -------- | ---------------------------------------------- |
+| **Year** | 2018                                           |
+| **Role** | Web Derector                                   |
+|          | Web Design                                     |
+|          | WordPress build                                |
+| **Link** | [https://excel-fc.com/](https://excel-fc.com/) |
 
-## Stack
+### Projects
 
-WordPress
+**Excel Fitness Centre** is a fitness gym in Japan. They had an outdated website which is not responsive, and the owner had demanded to update its contents by themselves. Our goal was to re-design and create a responsive WordPress website that includes blog features.
 
-## Challanges
+#### Home
 
-Thay had a problem that some customers call them and ask information that are already written on the website. The owner wanted to reduce those calls to reduce tasks for staffs.
+![Hero](../images/featured/excel2.png)
+
+#### Welscome
+
+![welcome](../images/featured/excel3.png)
+
+#### Blogs
+
+![Image of screen](../images/featured/excel4.png)
+
+#### Prices
+
+![prices](../images/featured/excel5.png)
