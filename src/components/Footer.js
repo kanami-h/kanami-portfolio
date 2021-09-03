@@ -23,7 +23,7 @@ class Footer extends React.PureComponent {
     return (
       <footer>
         <div className={styles.cta}>
-          <h3>Interested? Contact Me!</h3>
+          <h3>Get in touch!</h3>
           <div className={styles.contact}>
             <div className={styles.icon}>
               <FontAwesomeIcon icon={faEnvelope} />
