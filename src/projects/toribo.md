@@ -1,6 +1,6 @@
 ---
-title: Japanese Restaurant Toribo
-stack: HTML, CSS, Gatsby, GraphQL, Strapi
+title: Design and build of Japanese Restaurant Toribo website
+stack: HTML, CSS, bootstrap
 slug: japanese-restautant-toribo
 date: 2018-01-01 00:00:00 +0000
 thumb: ../images/thumbs/japanese-restaurant.jpg
@@ -9,8 +9,16 @@ featured: ../images/project-details/toribo.png
 
 ![Image of screen](../images/featured/toribo.png)
 
-**Japanese Restaurant Toribo** is a Japanese Izakaya style Restaurant located in Miyazaki, Japan.
+|          |                                                            |
+| -------- | ---------------------------------------------------------- |
+| **Year** | 2018                                                       |
+| **Role** | Web Derector                                               |
+|          | Web Design                                                 |
+|          | WordPress build                                            |
+| **Link** | [https://nidaime-toribo.com/](https://nidaime-toribo.com/) |
 
-## Challanges
+### Projects
 
-During pandemic, they cannot open the restaurant and started selling homekit that customers to enjoy Toribo's menu at their home. So they needed an e-commerse feature that customers able to checkout.
+**Japanese Restaurant Toribo** is a Japanese Izakaya-style Restaurant located in Japan. This project is the very first project after I learned HTML and CSS. The challenge was how to show all the food menus readable to users.
+
+![Image of screen](../images/featured/toribo2.png)
