@@ -4,22 +4,13 @@ stack: HTML, CSS, Gatsby, GraphQL, Strapi
 slug: japanese-restautant-toribo
 date: 2018-01-01 00:00:00 +0000
 thumb: ../images/thumbs/japanese-restaurant.jpg
-detailedImg: ../images/project-details/toribo.png
+featured: ../images/project-details/toribo.png
 ---
 
-## Summary
+![Image of screen](../images/featured/toribo.png)
 
 **Japanese Restaurant Toribo** is a Japanese Izakaya style Restaurant located in Miyazaki, Japan.
-
-## Stack
-
-HTML, CSS
-d
 
 ## Challanges
 
 During pandemic, they cannot open the restaurant and started selling homekit that customers to enjoy Toribo's menu at their home. So they needed an e-commerse feature that customers able to checkout.
-
-## Photos
-
-![Image of screen](/images/project-details/toribo.png)

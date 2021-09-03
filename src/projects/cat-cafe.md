@@ -4,7 +4,7 @@ stack: Web design, WordPress
 slug: cat-cafe-utatane
 date: 2019-01-01 00:00:00 +0000
 thumb: ../images/thumbs/cat-cafe.jpg
-featuredImg: ../images/featured/azumi_featured.png
+featured: ../images/featured/azumi_featured.png
 ---
 
 ## Summary

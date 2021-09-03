@@ -4,7 +4,7 @@ stack: Web design, WordPress
 slug: excel
 date: 2018-01-01 00:00:00 +0000
 thumb: ../images/thumbs/excel.jpg
-featuredImg: ../images/featured/azumi_featured.png
+featured: ../images/featured/azumi_featured.png
 ---
 
 ## Summary
