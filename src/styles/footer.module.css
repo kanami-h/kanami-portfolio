@@ -29,12 +29,14 @@ footer .contact {
   padding: 25px;
   border: 1px solid var(--blue);
   margin-left: 20px;
+  background: white;
 }
 
 .email {
   padding: 25px;
   border: 1px solid var(--blue);
   border-left: none;
+  background: white;
 }
 
 .btn {
@@ -64,6 +66,5 @@ footer .contact {
 
 .copyRight {
   text-align: center;
-  color: #8ab7d0;
   margin: 40px auto 0;
 }

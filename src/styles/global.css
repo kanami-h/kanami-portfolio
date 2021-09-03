@@ -43,9 +43,9 @@ nav {
   margin: 25px 40px;
 }
 
-nav > a > h1 {
+/* nav > a > h1 {
   color: var(--light-coral);
-}
+} */
 
 nav .links {
   display: inline-block;
