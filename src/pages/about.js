@@ -11,17 +11,18 @@ export default function About() {
         <div className={styles.introduction}>
           <h2>Hi! I'm Kanami</h2>
           <p>
-            I'm a <span className={styles.bold}>web developer</span> &
+            I am a <span className={styles.bold}>web developer</span> and
             <span className={styles.bold}> designer</span> who loves finding
-            solutions with technology. I have worked for small businesses as a
-            freelance web developer in Japan. After that, I enrolled in
-            Interactive Media Design at{" "}
+            solutions with the aid of technology. I have worked as a freelance
+            web developer for small businesses in Japan for a year. After that,
+            I enrolled in Interactive Media Design at{" "}
             <Link to="https://www.senecacollege.ca/programs/fulltime/INM.html">
               Seneca College
             </Link>{" "}
-            to earn better design and development knowledge. I'm passionate
-            about learning new web technologies and enjoy working on UX case
-            studies, especially user research and prototyping.
+            to gain better design and development knowledge to further hone my
+            skills and expertise in the filed. I'm passionate about learning new
+            web technologies and enjoy working on UX case studies, especially
+            user research and prototyping.
           </p>
         </div>
         <div className={styles.aboutImg}>
