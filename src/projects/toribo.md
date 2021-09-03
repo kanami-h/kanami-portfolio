@@ -1,6 +1,6 @@
 ---
 title: Design and build of Japanese Restaurant Toribo website
-stack: HTML, CSS, bootstrap
+stack: HTML, CSS, bootstrap, Netlify
 slug: japanese-restautant-toribo
 date: 2018-01-01 00:00:00 +0000
 thumb: ../images/thumbs/japanese-restaurant.jpg
@@ -14,7 +14,7 @@ featured: ../images/project-details/toribo.png
 | **Year** | 2018                                                       |
 | **Role** | Web Derector                                               |
 |          | Web Design                                                 |
-|          | WordPress build                                            |
+|          | Front & back-end build                                     |
 | **Link** | [https://nidaime-toribo.com/](https://nidaime-toribo.com/) |
 
 ### Projects
