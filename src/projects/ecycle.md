@@ -4,7 +4,7 @@ stack: Competitive Analysis, User Persona, Storyboard, Brand Guide, Wireframes, 
 slug: ecycle-case-study
 date: 2021-01-01 00:00:00 +0000
 thumb: ../images/thumbs/ecycle.jpg
-featured: ../images/featured/azumi_featured.png
+featuredImg: ../images/featured/toribo.png
 ---
 
 ## Summary

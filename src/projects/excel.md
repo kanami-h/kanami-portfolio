@@ -1,13 +1,11 @@
 ---
-title: Excel Fitness Centre
-stack: Web design, WordPress
+title: Redesign and Rebuild of Excel Fitness Centre Website
+stack: WordPress
 slug: excel
 date: 2018-01-01 00:00:00 +0000
 thumb: ../images/thumbs/excel.jpg
-featured: ../images/featured/azumi_featured.png
+featuredImg: ../images/featured/excel.png
 ---
-
-![Image of mobile phone](../images/featured/excel.png)
 
 |          |                                                |
 | -------- | ---------------------------------------------- |
@@ -25,7 +23,7 @@ featured: ../images/featured/azumi_featured.png
 
 ![Hero](../images/featured/excel2.png)
 
-#### Welscome
+#### Welcome
 
 ![welcome](../images/featured/excel3.png)
 

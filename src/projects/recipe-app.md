@@ -4,7 +4,7 @@ stack: UX Case Study
 slug: recipe-app-ux-project-proposal
 date: 2021-01-01 00:00:00 +0000
 thumb: ../images/thumbs/recipe-app.jpg
-featured: ../images/featured/azumi_featured.png
+featuredImg: ../images/featured/toribo.png
 ---
 
 ## Summary

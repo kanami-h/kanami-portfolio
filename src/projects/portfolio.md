@@ -4,6 +4,7 @@ stack: Gatsby, GraphQL
 slug: portfolio
 date: 2021-01-01 00:00:00 +0000
 thumb: ../images/thumbs/portfolio.png
+featuredImg: ../images/featured/toribo.png
 ---
 
 ![Image of mobile phone](../images/featured/excel.png)
