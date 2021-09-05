@@ -8,15 +8,15 @@ import * as styles from "../styles/project-details.module.css"
 
 export default function projectDetails({ data }) {
   const { html } = data.markdownRemark
-  const { title, featured } = data.markdownRemark.frontmatter
-  console.log(data.markdownRemark.frontmatter)
+  const { title, featuredImg } = data.markdownRemark.frontmatter
+  console.log(data)
   return (
     <Layout>
       <div className={styles.details}>
         <h2>{title}</h2>
-        {/*<div className={styles.featured}>
-          <Img fluid={featured} />
-  </div>:*/}
+        <div className={styles.featured}>
+          <Img fluid={featuredImg.childImageSharp.fluid} />
+        </div>
         {
           <div
             className={styles.html}
@@ -43,6 +43,13 @@ export const query = graphql`
         stack
         title
         date
+        featuredImg {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
