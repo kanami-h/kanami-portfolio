@@ -1,38 +1,38 @@
 ---
-title: Design and Build of portfolio with Gatsby & GraphQL
+title: Design and Build of Portfolio with Gatsby & GraphQL
 stack: Gatsby, GraphQL
 slug: portfolio
 date: 2021-01-01 00:00:00 +0000
 thumb: ../images/thumbs/portfolio.png
-featuredImg: ../images/featured/toribo.png
+featuredImg: ../images/featured/portfolio.png
 ---
 
-![Image of mobile phone](../images/featured/excel.png)
+|          |                                            |
+| -------- | ------------------------------------------ |
+| **Year** | 2021                                       |
+| **Role** | Web Derector                               |
+|          | Web Design                                 |
+|          | Front & back-end build                     |
+| **Link** | [https://kanami.tech](https://kanami.tech) |
 
-|          |                                                |
-| -------- | ---------------------------------------------- |
-| **Year** | 2021                                           |
-| **Role** | Web Derector                                   |
-|          | Web Design                                     |
-|          | Front & back-end build                         |
-| **Link** | [https://excel-fc.com/](https://excel-fc.com/) |
+Built with Gatsby, GraphQL and hosted with Netlify.
 
-### Projects
+#### Works
 
-**Excel Fitness Centre** is a fitness gym in Japan. They had an outdated website which is not responsive, and the owner had demanded to update its contents by themselves. Our goal was to re-design and create a responsive WordPress website that includes blog features.
+![Hero](../images/featured/portfolio2.png)
 
-#### Home
+#### About
 
-![Hero](../images/featured/excel2.png)
+![Hero](../images/featured/portfolio3.png)
 
-#### Welscome
+#### About Me
 
-![welcome](../images/featured/excel3.png)
+![Hero](../images/featured/portfolio4.png)
 
-#### Blogs
+#### Project Page
 
-![Image of screen](../images/featured/excel4.png)
+![Hero](../images/featured/portfolio5.png)
 
-#### Prices
+#### Project Details
 
-![prices](../images/featured/excel5.png)
+![Hero](../images/featured/portfolio6.png)
