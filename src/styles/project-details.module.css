@@ -34,10 +34,6 @@ td > a {
   text-decoration: underline;
 }
 
-.html p:nth-child(3) {
-  width: 50%;
-}
-
 .html img {
   border-radius: 10px;
 }
