@@ -33,7 +33,7 @@ export default function Woks() {
               />
               <div className={styles.cardDesc}>
                 <h3 className={styles.title}>
-                  Solving UX problems on an electric rental bike app
+                  Solving UX problems on an electric bike rental app
                 </h3>
                 <p className={styles.year}>2021</p>
                 <p className={styles.desc}>
