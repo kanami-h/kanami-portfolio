@@ -1,13 +1,11 @@
 ---
-title: eCycle Case Study
-stack: Competitive Analysis, User Persona, Storyboard, Brand Guide, Wireframes, Prototype
+title: Solving UX problems on an electric bike rental app
+stack: UX Case Study
 slug: ecycle-case-study
 date: 2021-01-01 00:00:00 +0000
 thumb: ../images/thumbs/ecycle.jpg
-featuredImg: ../images/featured/toribo.png
+featuredImg: ../images/featured/ecycle.png
 ---
-
-## Summary
 
 **The eCycle** is an e-bike sharing company that provides electric bikes to people in Canada. Customers can rent a bike and return to the nearest stations located all across the city.
 
@@ -19,10 +17,26 @@ Today, people care about their physical and mental health more than before. Also
 
 Provide an app that users can search for an available e-bike. This app should include those features: showing how many bikes available, booking, paying the fee, unlocking the bike.
 
-## Visual
+#### Overview & Competitive Analysis
 
-Couple of pages from slides
+![Image of screen](../images/featured/ecycle6.png)
+
+#### Persona & Story Board
+
+![Image of screen](../images/featured/ecycle2.png)
+
+#### User Flow & Brand Guide
+
+![Image of screen](../images/featured/ecycle3.png)
+
+#### Brand Guide & Wire Frame
+
+![Image of screen](../images/featured/ecycle4.png)
+
+#### Wire Frame
+
+![Image of screen](../images/featured/ecycle5.png)
 
 ## Prototype
 
-Video
+`youtube: https://youtu.be/ueHnEm3CQrY`
