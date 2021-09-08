@@ -79,7 +79,11 @@ module.exports = {
   ],
   siteMetadata: {
     title: "Kanami Hidaka",
-    description: "web dev  portfolio",
+    titleTemplate: "%s | Kanami Hidaka",
+    description: "Toronto based web developer portfolio",
+    url: "https://kanami.tech",
+    image: "/images/portfolio.png", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@kanami_tomdom",
     copyright: "This website is copyright 2021 Kanami Hidaka",
     contact: "mail@kanami.tech",
   },
