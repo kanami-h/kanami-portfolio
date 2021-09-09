@@ -63,7 +63,7 @@ td > a {
   letter-spacing: 3px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .details {
     margin: 0 10px;
   }
