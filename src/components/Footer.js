@@ -43,7 +43,7 @@ class Footer extends React.PureComponent {
           </div>
         </div>
         <div className={styles.socialIcon}>
-          <Link to="https://www.linkedin.com/in/kanami-hidaka-jp/">
+          <Link to="https://www.linkedin.com/in/kanami-hidaka-ca">
             <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
           </Link>
           <Link to="https://github.com/kanami-h/">
