@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDoubleLeft } from "@fortawesome/free-solid-svg-icons"
 import * as styles from "../styles/project-details.module.css"
-import SEO from "../components/seo"
+import SEO from "../components/Seo"
 
 export default function projectDetails({ data }) {
   const { html } = data.markdownRemark

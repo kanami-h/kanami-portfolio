@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../../components/Layout"
 import * as styles from "../../styles/projects.module.css"
 import Img from "gatsby-image"
-import SEO from "../../components/seo"
+import SEO from "../../components/Seo"
 
 export default function Projects({ data }) {
   const projects = data.projects.nodes
