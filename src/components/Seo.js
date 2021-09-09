@@ -23,6 +23,7 @@ const SEO = ({ title, description, image, article }) => {
     image: `${siteUrl}${image || defaultImage}`,
     url: `${siteUrl}${pathname}`,
   }
+
   return (
     <Helmet title={seo.title} titleTemplate={titleTemplate}>
       <meta name="description" content={seo.description} />
@@ -71,7 +72,7 @@ const query = graphql`
         defaultTitle: title
         titleTemplate
         twitterUsername
-        url
+        siteUrl: url
       }
     }
   }
