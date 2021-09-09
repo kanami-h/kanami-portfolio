@@ -10,7 +10,7 @@ import SEO from "../components/Seo"
 export default function Home({ data }) {
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Kanami Hidaka - Front-End Web Developer" />
       <section className={styles.header}>
         <div>
           <h2>Develop & Design</h2>
