@@ -66,9 +66,9 @@ const query = graphql`
   query SEO {
     site {
       siteMetadata {
-        description
-        image
-        title
+        defaultDescription: description
+        defaultImage: image
+        defaultTitle: title
         titleTemplate
         twitterUsername
         url
