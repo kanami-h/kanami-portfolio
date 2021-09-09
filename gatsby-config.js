@@ -83,7 +83,8 @@ module.exports = {
     titleTemplate: "%s | Kanami Hidaka",
     description: "Toronto based web developer portfolio",
     url: "https://kanami.tech",
-    image: "/static/portfolio.png", // Path to your image you placed in the 'static' folder
+    image:
+      "https://kanami.tech/static/1086a4aac7e6141a00d1f56b6ea07e0f/ee604/portfolio.png", // Path to your image you placed in the 'static' folder
     twitterUsername: "@kanami_tomdom",
     copyright: "This website is copyright 2021 Kanami Hidaka",
     contact: "mail@kanami.tech",
