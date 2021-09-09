@@ -3,10 +3,12 @@ import Layout from "../components/Layout"
 import { Link } from "gatsby"
 import * as styles from "../styles/about.module.css"
 import { StaticImage } from "gatsby-plugin-image"
+import SEO from "../components/seo"
 
 export default function About() {
   return (
     <Layout>
+      <SEO title="About" />
       <section className={styles.aboutWrapper}>
         <div className={styles.introduction}>
           <h2>Hi! I'm Kanami</h2>

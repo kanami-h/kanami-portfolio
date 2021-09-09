@@ -3,12 +3,14 @@ import React from "react"
 import Layout from "../../components/Layout"
 import * as styles from "../../styles/projects.module.css"
 import Img from "gatsby-image"
+import SEO from "../../components/seo"
 
 export default function Projects({ data }) {
   const projects = data.projects.nodes
 
   return (
     <Layout>
+      <SEO title="Projects" />
       <div className={styles.portfolio}>
         <h2>Projects</h2>
         <h3>Projects & Websites I've Created</h3>

@@ -5,10 +5,12 @@ import * as styles from "../styles/home.module.css"
 import Img from "gatsby-image"
 import { StaticImage } from "gatsby-plugin-image"
 import Works from "../components/Works"
+import SEO from "../components/seo"
 
 export default function Home({ data }) {
   return (
     <Layout>
+      <SEO title="Home" />
       <section className={styles.header}>
         <div>
           <h2>Develop & Design</h2>
