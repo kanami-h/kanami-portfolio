@@ -16,6 +16,7 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -82,7 +83,7 @@ module.exports = {
     titleTemplate: "%s | Kanami Hidaka",
     description: "Toronto based web developer portfolio",
     url: "https://kanami.tech",
-    image: "/images/portfolio.png", // Path to your image you placed in the 'static' folder
+    image: "/static/portfolio.png", // Path to your image you placed in the 'static' folder
     twitterUsername: "@kanami_tomdom",
     copyright: "This website is copyright 2021 Kanami Hidaka",
     contact: "mail@kanami.tech",
