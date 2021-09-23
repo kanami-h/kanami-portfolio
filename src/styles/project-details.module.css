@@ -14,6 +14,12 @@
   font-size: 2.5rem;
 }
 
+.details h4 {
+  margin-top: 3.5rem;
+  font-size: 2em;
+  font-weight: 300;
+}
+
 .html {
   margin-top: 40px;
 }
@@ -61,6 +67,15 @@ td > a {
 
 .backButton a:hover {
   letter-spacing: 3px;
+}
+
+/* Table for projects */
+.html table:nth-child(4) {
+  margin: 2rem 0;
+}
+
+.html iframe {
+  margin: 0 0 3rem 0;
 }
 
 @media only screen and (max-width: 1000px) {
