@@ -7,13 +7,14 @@ thumb: ../images/thumbs/japanese-restaurant.jpg
 featuredImg: ../images/featured/toribo.png
 ---
 
-|          |                                                            |
-| -------- | ---------------------------------------------------------- |
-| **Year** | 2018                                                       |
-| **Role** | Web Derector                                               |
-|          | Web Design                                                 |
-|          | Front & back-end build                                     |
-| **Link** | [https://nidaime-toribo.com/](https://nidaime-toribo.com/) |
+|          |                                                                          |
+| -------- | ------------------------------------------------------------------------ |
+| **Year** | 2018                                                                     |
+| **Role** | Web Derector                                                             |
+|          | Web Design                                                               |
+|          | Front & back-end build                                                   |
+| **Link** | [https://nidaime-toribo.com/](https://nidaime-toribo.com/)               |
+| **Repo** | [https://github.com/kanami-h/toribo](https://github.com/kanami-h/toribo) |
 
 ### Projects
 
