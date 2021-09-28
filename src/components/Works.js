@@ -7,6 +7,22 @@ export default function Woks() {
   return (
     <div>
       <div className={styles.works}>
+        <section>
+          <h2>Web Development</h2>
+          <Link to="/projects/vanilla-js">
+            <div className={styles.card}>
+              <StaticImage
+                src="../images/thumbs/calc.png"
+                alt="JS calculator"
+              />
+              <div className={styles.cardDesc}>
+                <h3 className={styles.title}>Vanilla JavaScript Projects</h3>
+                <p className={styles.year}>2021</p>
+                <p className={styles.desc}>Calculator, Carousel</p>
+              </div>
+            </div>
+          </Link>
+        </section>
         <div className={styles.webDesign}>
           <h2>Web Design</h2>
           <Link to="/projects/japanese-restautant-toribo">
