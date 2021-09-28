@@ -23,7 +23,7 @@ export default function Woks() {
             </div>
           </Link>
         </section>
-        <div className={styles.webDesign}>
+        <section>
           <h2>Web Design</h2>
           <Link to="/projects/japanese-restautant-toribo">
             <div className={styles.card}>
@@ -38,8 +38,8 @@ export default function Woks() {
               </div>
             </div>
           </Link>
-        </div>
-        <div className={styles.uxDesign}>
+        </section>
+        <section>
           <h2>UX Design</h2>
           <Link to="/projects/ecycle-case-study">
             <div className={styles.card}>
@@ -58,8 +58,8 @@ export default function Woks() {
               </div>
             </div>
           </Link>
-        </div>
-        <div className={styles.graphicDesign}>
+        </section>
+        <section>
           <h2>Graphic Design</h2>
           <Link to="/projects/azumi-brand-book">
             <div className={styles.card}>
@@ -77,7 +77,7 @@ export default function Woks() {
               </div>
             </div>
           </Link>
-        </div>
+        </section>
       </div>
       <div className={styles.moreBtnWrapper}>
         <Link to="/projects/">
