@@ -2,7 +2,6 @@ import { graphql, Link } from "gatsby"
 import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../styles/home.module.css"
-import Img from "gatsby-image"
 import { StaticImage } from "gatsby-plugin-image"
 import Works from "../components/Works"
 import SEO from "../components/Seo"
@@ -17,7 +16,9 @@ export default function Home({ data }) {
           <p>Web Developer & UX Designer based in Toronto.</p>
           <span></span>
         </div>
-        <Img fluid={data.file.childImageSharp.fluid} />
+        <div className={styles.headerImg}>
+          <StaticImage src="../images/flamingo.jpg" alt="flamingo" />
+        </div>
       </section>
       <section className={styles.works}>
         <div>
