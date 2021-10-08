@@ -8,6 +8,10 @@
   --yellow: #ffcb77;
   --floral-white: #fef9ef;
   --light-coral: #fe6d73;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --transition: 0.3s;
+  --radius: 30px;
 }
 
 * {
