@@ -18,14 +18,16 @@
 .projects {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 80px;
-  margin: 80px 20px;
+  grid-gap: 5rem 2rem;
+  margin: 5rem 2rem;
+  justify-items: center;
 }
 
 .projects h3 {
   text-align: center;
   margin: 20px auto 0;
   font-weight: 500;
+  padding: 0 20px;
 }
 
 .projects p {
@@ -34,8 +36,9 @@
 }
 
 .projectImg {
-  width: 300px;
-  height: 200px;
+  width: 100%;
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
 }
 
 .card {
@@ -43,14 +46,38 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  border-radius: var(--radius);
+  transition: var(--transition);
+  box-shadow: var(--light-shadow);
+  height: 400px;
+  width: 480px;
 }
 
-@media only screen and (max-width: 600px) {
+.card:hover {
+  box-shadow: var(--dark-shadow);
+  transform: translateY(-4px);
+}
+
+@media only screen and (max-width: 1440px) {
+  .projects {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card {
+    width: 380px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
   .portfolio h3 {
     font-size: 1.5rem;
   }
 
   .projects {
     grid-template-columns: 1fr;
+  }
+
+  .card {
+    width: 380px;
   }
 }
