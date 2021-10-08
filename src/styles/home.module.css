@@ -52,6 +52,11 @@ Header
   display: block;
 }
 
+.headerImg {
+  width: 70%;
+  justify-self: end;
+}
+
 /* ============
 Works
 =============== */
@@ -94,6 +99,10 @@ About
   width: 60%;
 }
 
+.description h3 {
+  font-size: 2rem;
+}
+
 /* Mobile */
 
 @media only screen and (max-width: 600px) {
@@ -105,8 +114,10 @@ About
     width: 50%;
   }
 
-  .header img {
+  .headerImg {
     max-width: 100%;
+    width: 70%;
+    justify-self: end;
   }
 
   .title {
