@@ -49,7 +49,7 @@ class Footer extends React.PureComponent {
           <Link to="https://github.com/kanami-h/">
             <FontAwesomeIcon icon={faGithub} size="lg" />
           </Link>
-          <Link to="https://twitter.com/kanami_tomdom">
+          <Link to="https://twitter.com/kanamih21">
             <FontAwesomeIcon icon={faTwitter} size="lg" />
           </Link>
         </div>
