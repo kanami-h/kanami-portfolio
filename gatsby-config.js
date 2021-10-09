@@ -22,6 +22,17 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-plugin-clarity`,
+            options: {
+              // String value for your clarity project ID
+              clarity_project_id: "8six2kprq4",
+              // Boolean value for enabling clarity while developing
+              // true will enable clarity tracking code on both development and production environments
+              // false will enable clarity tracking code on production environment only
+              enable_on_dev_env: true,
+            },
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               linkImagesToOriginal: false,
