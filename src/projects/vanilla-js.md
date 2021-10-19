@@ -13,6 +13,18 @@ featuredImg: ../images/featured/calc.png
 
 ### Projects
 
+#### Hangman Game
+
+|          |                                                                                  |
+| -------- | -------------------------------------------------------------------------------- |
+| **Repo** | [https://github.com/kanami-h/js-hangman](https://github.com/kanami-h/js-hangman) |
+
+<iframe height="565" style="width: 100%;" scrolling="no" title="Untitled" src="https://codepen.io/kanami-h/embed/jOLqgxm?default-tab=js%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/kanami-h/pen/jOLqgxm">
+  Untitled</a> by Kanami (<a href="https://codepen.io/kanami-h">@kanami-h</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
 #### Calculator
 
 |          |                                                                                  |
