@@ -18,7 +18,9 @@ export default function Woks() {
               <div className={styles.cardDesc}>
                 <h3 className={styles.title}>Vanilla JavaScript Projects</h3>
                 <p className={styles.year}>2021</p>
-                <p className={styles.desc}>Calculator, Carousel</p>
+                <p className={styles.desc}>
+                  Hangman Game, Calculator, Carousel
+                </p>
               </div>
             </div>
           </Link>
