@@ -3,7 +3,7 @@ import React from "react"
 import * as styles from "../styles/works.module.css"
 import { StaticImage } from "gatsby-plugin-image"
 
-export default function Woks() {
+export default function Works() {
   return (
     <div>
       <div className={styles.works}>
