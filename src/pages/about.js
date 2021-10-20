@@ -1,14 +1,13 @@
 import React from "react"
 import Layout from "../components/Layout"
-import { Link } from "gatsby"
 import * as styles from "../styles/about.module.css"
 import { StaticImage } from "gatsby-plugin-image"
-import SEO from "../components/Seo"
+import Seo from "../components/Seo"
 
 export default function About() {
   return (
     <Layout>
-      <SEO title="About" />
+      <Seo title="About" />
       <section className={styles.aboutWrapper}>
         <div className={styles.introduction}>
           <h2>Hi! I'm Kanami</h2>
@@ -18,9 +17,9 @@ export default function About() {
             solutions with the aid of technology. I have worked as a freelance
             web developer for small businesses in Japan for a year. After that,
             I enrolled in Interactive Media Design at{" "}
-            <Link to="https://www.senecacollege.ca/programs/fulltime/INM.html">
+            <a href="https://www.senecacollege.ca/programs/fulltime/INM.html">
               Seneca College
-            </Link>{" "}
+            </a>{" "}
             to gain better design and development knowledge to further hone my
             skills and expertise in the filed. I'm passionate about learning new
             web technologies and enjoy working on UX case studies, especially
@@ -33,8 +32,8 @@ export default function About() {
             alt="A flamingo typing something on laptop"
           />
         </div>
-        <div className={styles.experience}>
-          <h2 className={styles.title}>Experiences</h2>
+        <div>
+          <h2>Experiences</h2>
           <ul>
             <li>
               3 years of freelance front-end development experience with HTML,
@@ -54,16 +53,16 @@ export default function About() {
             <li>Have experience as a volunteer Japanese language tutor</li>
           </ul>
         </div>
-        <div className={styles.achievement}>
+        <div>
           <h2>Certificate</h2>
           <div>
             <p>
               edX Verified Certificate for Computer Science 101 Stanford
               University
             </p>
-            <Link to="https://courses.edx.org/certificates/59f3fa8e9cea40e2be9e05fd00bd474d">
+            <a href="https://courses.edx.org/certificates/59f3fa8e9cea40e2be9e05fd00bd474d">
               See credential
-            </Link>
+            </a>
           </div>
         </div>
       </section>
