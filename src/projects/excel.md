@@ -1,8 +1,9 @@
 ---
 title: Redesign and Rebuild of Excel Fitness Centre Website
+category: wordpress
 stack: WordPress
 slug: excel
-date: 2018-01-01 00:00:00 +0000
+year: 2018
 thumb: ../images/thumbs/excel.jpg
 featuredImg: ../images/featured/excel.png
 ---

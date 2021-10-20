@@ -1,8 +1,9 @@
 ---
 title: Solving UX problems on an electric bike rental app
+category: ux design
 stack: UX Case Study
 slug: ecycle-case-study
-date: 2021-01-01 00:00:00 +0000
+year: 2021
 thumb: ../images/thumbs/ecycle.jpg
 featuredImg: ../images/featured/ecycle.png
 ---

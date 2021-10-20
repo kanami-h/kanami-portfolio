@@ -1,8 +1,9 @@
 ---
 title: AZUMI Brand Book
+category: graphic design
 stack: Brand Design
 slug: azumi-brand-book
-date: 2020-01-01 00:00:00 +0000
+year: 2020
 thumb: ../images/thumbs/azumi.png
 featuredImg: ../images/featured/azumi.png
 ---

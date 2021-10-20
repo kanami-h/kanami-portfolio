@@ -1,8 +1,9 @@
 ---
 title: Design and build of a Japanese Restaurant Toribo website
+category: web design
 stack: HTML, CSS, bootstrap, Netlify
 slug: japanese-restautant-toribo
-date: 2018-01-01 00:00:00 +0000
+year: 2018
 thumb: ../images/thumbs/japanese-restaurant.jpg
 featuredImg: ../images/featured/toribo.png
 ---

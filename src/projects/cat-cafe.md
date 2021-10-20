@@ -1,8 +1,9 @@
 ---
 title: Redesign and Rebuid of Cat Cafe Utatane Website
+category: wordpress
 stack: WordPress
 slug: cat-cafe-utatane
-date: 2019-01-01 00:00:00 +0000
+year: 2019
 thumb: ../images/thumbs/cat-cafe.jpg
 featuredImg: ../images/featured/utatane.png
 ---

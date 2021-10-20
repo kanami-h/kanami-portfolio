@@ -1,8 +1,9 @@
 ---
 title: Vanilla JavaScript Projects
+category: javascript
 stack: HTML, CSS, JavaScript
 slug: vanilla-js
-date: 2021-09-23 00:00:00 +0000
+year: 2021
 thumb: ../images/thumbs/calc.png
 featuredImg: ../images/featured/calc.png
 ---

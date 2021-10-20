@@ -1,8 +1,9 @@
 ---
 title: Design and Build of Portfolio with Gatsby & GraphQL
+category: web design
 stack: Gatsby, GraphQL
 slug: portfolio
-date: 2021-01-01 00:00:00 +0000
+year: 2021
 thumb: ../images/thumbs/portfolio.jpg
 featuredImg: ../images/featured/portfolio.png
 ---
