@@ -2,14 +2,14 @@ import { graphql, Link } from "gatsby"
 import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../styles/home.module.css"
-import { StaticImage } from "gatsby-plugin-image"
-import Works from "../components/Works"
-import SEO from "../components/Seo"
+import { GatsbyImage, getImage, StaticImage } from "gatsby-plugin-image"
+import Seo from "../components/Seo"
 
 export default function Home({ data }) {
+  const works = data.works.nodes
   return (
     <Layout>
-      <SEO title="Kanami Hidaka - Front-End Web Developer" />
+      <Seo title="Kanami Hidaka - Front-End Web Developer" />
       <section className={styles.header}>
         <div>
           <h2>Develop & Design</h2>
@@ -20,12 +20,35 @@ export default function Home({ data }) {
           <StaticImage src="../images/flamingo.jpg" alt="flamingo" />
         </div>
       </section>
-      <section className={styles.works}>
+
+      {/* Works */}
+      <section className={styles.worksWrapper}>
         <div>
           <h2 className={styles.title}>Works</h2>
         </div>
-        <Works />
+        <div className={styles.works}>
+          {works.map(work => {
+            const item = work.frontmatter
+            const image = getImage(item.thumb)
+            return (
+              <div key={work.id}>
+                <Link to={"/projects/" + work.frontmatter.slug}>
+                  <div className={styles.card}>
+                    <GatsbyImage image={image} alt={item.title} />
+                    <div className={styles.cardDesc}>
+                      <h3 className={styles.cardTitle}>{item.title}</h3>
+                      <p>{item.category}</p>
+                      <p>{item.year}</p>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            )
+          })}
+        </div>
       </section>
+
+      {/* About */}
       <section className={styles.about}>
         <div>
           <h2 className={styles.title}>About</h2>
@@ -56,13 +79,23 @@ export default function Home({ data }) {
 }
 
 export const query = graphql`
-  query Banner {
-    file(relativePath: { eq: "flamingo.png" }) {
-      childImageSharp {
-        id
-        fluid {
-          ...GatsbyImageSharpFluid
+  query WorksQuery {
+    works: allMarkdownRemark(
+      sort: { fields: frontmatter___year, order: DESC }
+    ) {
+      nodes {
+        frontmatter {
+          slug
+          title
+          category
+          year
+          thumb {
+            childImageSharp {
+              gatsbyImageData(width: 320, height: 195, formats: WEBP)
+            }
+          }
         }
+        id
       }
     }
   }
