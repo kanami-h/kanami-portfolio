@@ -5,14 +5,14 @@ import Img from "gatsby-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDoubleLeft } from "@fortawesome/free-solid-svg-icons"
 import * as styles from "../styles/project-details.module.css"
-import SEO from "../components/Seo"
+import Seo from "../components/Seo"
 
 export default function projectDetails({ data }) {
   const { html } = data.markdownRemark
   const { title, featuredImg } = data.markdownRemark.frontmatter
   return (
     <Layout>
-      <SEO title={title} />
+      <Seo title={title} />
       <div className={styles.details}>
         <h2>{title}</h2>
         <div className={styles.featured}>
@@ -43,7 +43,6 @@ export const query = graphql`
         slug
         stack
         title
-        date
         featuredImg {
           childImageSharp {
             fluid {
@@ -51,6 +50,7 @@ export const query = graphql`
             }
           }
         }
+        year
       }
     }
   }
