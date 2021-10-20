@@ -61,7 +61,7 @@ Header
 Works
 =============== */
 
-.works {
+.worksWrapper {
   min-height: 100vh;
 }
 
@@ -70,7 +70,60 @@ Works
   -webkit-text-fill-color: white;
   color: var(--light-coral);
   font-size: 7em;
+}
+
+.title:nth-child(odd) {
   text-align: right;
+}
+
+.title:nth-child(even) {
+  text-align: right;
+}
+
+.works {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 2rem;
+}
+
+.card {
+  width: 320px;
+  border-radius: 15px;
+  transition: 0.4s;
+  box-shadow: var(--light-shadow);
+  margin-top: 3rem;
+  min-height: 410px;
+}
+
+.card:hover {
+  box-shadow: var(--dark-shadow);
+  transform: translateY(-4px);
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.cardDesc {
+  padding: 5%;
+  text-transform: capitalize;
+}
+
+.cardDesc p {
+  color: #aaa;
+  text-align: right;
+}
+
+.cardTitle {
+  height: 90px;
+}
+
+.works h2 {
+  font-size: 3.5em;
 }
 
 /* =============
@@ -78,6 +131,8 @@ About
 ================ */
 .about {
   min-height: 50vh;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .aboutWrapper {
@@ -101,6 +156,10 @@ About
 
 .description h3 {
   font-size: 2rem;
+}
+
+.description p {
+  text-transform: none;
 }
 
 /* Mobile */
@@ -130,5 +189,12 @@ About
   .description {
     padding: 30px 20px;
     width: 85%;
+  }
+}
+
+/* WORKS */
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 340px;
   }
 }
