@@ -8,7 +8,6 @@ import {
   faTwitter,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons"
-import { Link } from "gatsby"
 
 class Footer extends React.PureComponent {
   state = {
@@ -37,16 +36,13 @@ class Footer extends React.PureComponent {
               </CopyToClipboard>
             </div>
 
-            <div className={styles.copied}>
-              {this.state.copied ? <span>Copied!</span> : null}
-            </div>
+            <div>{this.state.copied ? <span>Copied!</span> : null}</div>
           </div>
         </div>
         <div className={styles.socialIcon}>
           <a href="https://www.linkedin.com/in/kanami-hidaka-ca">
             <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
           </a>
-          <a href=""></a>
           <a href="https://github.com/kanami-h/">
             <FontAwesomeIcon icon={faGithub} size="lg" />
           </a>
