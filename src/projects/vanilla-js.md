@@ -4,8 +4,8 @@ category: JavaScript
 stack: HTML, CSS, JavaScript
 slug: vanilla-js
 year: 2021
-thumb: ../images/thumbs/calc.png
-featuredImg: ../images/featured/calc.png
+thumb: ../images/thumbs/js-projects.jpg
+featuredImg: ../images/thumbs/js-projects.jpg
 ---
 
 |          |                                                            |
