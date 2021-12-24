@@ -36,8 +36,11 @@ export default function About() {
           <h2>Experiences</h2>
           <ul>
             <li>
-              3 years of freelance front-end development experience with HTML,
+              3 years of front-end development experience with HTML,
               CSS, Bootstrap, WordPress, JavaScript, React and Gatsby.
+            </li>
+            <li>
+              Since Dec 2021, working for vstudio(Yoga instructor platform startup in Toronto) as a part time front-end developer
             </li>
             <li>
               Directly contacted clients, scooped up their needs, and proposed a
