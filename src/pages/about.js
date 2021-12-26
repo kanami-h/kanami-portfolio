@@ -35,14 +35,6 @@ export default function About() {
           <h2>Experiences</h2>
           <ul>
             <li>
-              I've been working with a rapidly growing startup vstudio since 2021.
-              Responsible for UX/UI design, front-end development by using Figma, HTML/CSS/Python Flask
-            </li>
-            <li>
-              3 years of front-end development experience with HTML,
-              CSS, Bootstrap, WordPress, JavaScript, React and Gatsby.
-            </li>
-            <li>
               Directly contacted clients, scooped up their needs, and proposed a
              s best solution to solve their problems.
             </li>
