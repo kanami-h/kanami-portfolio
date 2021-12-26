@@ -36,15 +36,16 @@ export default function About() {
           <h2>Experiences</h2>
           <ul>
             <li>
-              3 years of front-end development experience with HTML,
+              I've been working with a rapidly growing startup vstudio since 2021.
+              Responsible for UX/UI design, front-end development by using Figma, HTML/CSS/Python Flask
+            </li>
+            <li>
+              3 years of freelance front-end development experience with HTML,
               CSS, Bootstrap, WordPress, JavaScript, React and Gatsby.
             </li>
             <li>
-              Since Dec 2021, working for vstudio(Yoga instructor platform startup in Toronto) as a part time front-end developer
-            </li>
-            <li>
               Directly contacted clients, scooped up their needs, and proposed a
-              best solution to solve their problems.
+             s best solution to solve their problems.
             </li>
           </ul>
         </div>
