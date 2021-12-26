@@ -61,7 +61,7 @@ export default function Home({ data }) {
             <h3>Kanami Hidaka</h3>
             <p>
               <span className={styles.bold}>Hello!</span> I am a front-end
-              developer and designer who have a passion to find better
+              developer and UX designer who have a passion to find better
               solutions, developing and simplifying procedues, and having a
               strong curiosity to learn new technologies. Skilled communicator
               with a sales background.
