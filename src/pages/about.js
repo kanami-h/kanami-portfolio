@@ -12,14 +12,15 @@ export default function About() {
         <div className={styles.introduction}>
           <h2>Hi! I'm Kanami</h2>
           <p>
-            I am a <span className={styles.bold}>front-end developer</span> and
-            <span className={styles.bold}> UX designer</span> who loves finding
-            solutions with the aid of technology. I have been working for a rapidly 
-            growing startup vstudio since 2021. Before that I learned Interactive Media Design at{" "}
+            I am a <span className={styles.bold}>web developer</span> and
+            <span className={styles.bold}> designer</span> who loves finding
+            solutions with the aid of technology. I have worked as a freelance
+            web developer for small businesses in Japan for a year. After that,
+            I enrolled in Interactive Media Design at{" "}
             <a href="https://www.senecacollege.ca/programs/fulltime/INM.html">
               Seneca College
             </a>{" "}
-            and gained design principles and development knowledge to further hone my
+            to gain better design and development knowledge to further hone my
             skills and expertise in the filed. I'm passionate about learning new
             web technologies and enjoy working on UX case studies, especially
             user research and prototyping.
@@ -34,9 +35,10 @@ export default function About() {
         <div>
           <h2>Experiences</h2>
           <ul>
+            
             <li>
               Directly contacted clients, scooped up their needs, and proposed a
-             s best solution to solve their problems.
+              best solution to solve their problems.
             </li>
           </ul>
         </div>
