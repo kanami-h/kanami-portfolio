@@ -35,10 +35,7 @@ export default function About() {
         <div>
           <h2>Experiences</h2>
           <ul>
-            <li>
-              3 years of freelance front-end development experience with HTML,
-              CSS, Bootstrap, WordPress, JavaScript, React and Gatsby.
-            </li>
+            
             <li>
               Directly contacted clients, scooped up their needs, and proposed a
               best solution to solve their problems.
