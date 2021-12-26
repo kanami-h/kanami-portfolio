@@ -40,7 +40,7 @@ export default function About() {
               Responsible for UX/UI design, front-end development by using Figma, HTML/CSS/Python Flask
             </li>
             <li>
-              3 years of freelance front-end development experience with HTML,
+              3 years of front-end development experience with HTML,
               CSS, Bootstrap, WordPress, JavaScript, React and Gatsby.
             </li>
             <li>
